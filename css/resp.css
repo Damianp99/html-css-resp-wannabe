@@ -17,6 +17,15 @@
         background-color:  #F2F2CD; 
     }
 
+    #steps .row>.left,
+    #steps .row>.right,
+    #steps .row>.center{
+        float: none;
+        width: 100%;
+        margin: 10px auto;
+    }
+    
+    
 
 }
 
