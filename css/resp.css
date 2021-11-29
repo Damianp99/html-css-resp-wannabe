@@ -1,0 +1,13 @@
+/* RESPONSIVE */
+
+@media screen and (max-width: 420px) {
+   
+    #lezioni .row>.left,
+    #lezioni .row>.right{
+        width: 100%;
+        float: none;
+        margin: 10px auto;
+    }
+
+}
+
