@@ -1,6 +1,12 @@
 /* RESPONSIVE  */
 
 @media screen and (max-width: 420px) {
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
    
     #lezioni .row>.left,
     #lezioni .row>.right{
@@ -19,13 +25,18 @@
 
     #steps .row>.left,
     #steps .row>.right,
-    #steps .row>.center{
-        float: none;
+    #steps .row>.central {
         width: 100%;
         margin: 10px auto;
+        float: none;
     }
     
-    
+    .row {
+        width: 100%;
+    }
 
+
+
+    
 }
 
